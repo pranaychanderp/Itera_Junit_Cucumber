@@ -1,0 +1,1218 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 31, 2022 04:55:16 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Customer</a><a class="dropdown-item" href="#">@login</a><a class="dropdown-item" href="#">@Delete</a><a class="dropdown-item" href="#">@Edit</a><a class="dropdown-item" href="#">@+ve</a><a class="dropdown-item" href="#">@Add</a><a class="dropdown-item" href="#">@-ve</a><a class="dropdown-item" href="#">@signup</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Adding Customer</p>
+            <p class="text-sm">
+              <span>16:55:17 pm</span> / <span>30:51:408</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Adding Customer</h5>
+<span class='badge badge-success'>12.31.2022 16:55:17</span>
+<span class='badge badge-danger'>12.31.2022 16:56:09</span>
+<span class='badge badge-default'>30:51:408</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Adding Customer Test</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definition.Customer.open_browser()">
+                <span>Given Open browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.open_url()">
+                <span>And Open URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_login()">
+                <span>When Click on Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.enter_username(java.lang.String)">
+                <span>Then Input Username as "qwerty3"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.enter_password(java.lang.String)">
+                <span>And Input Password as "Password"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_login_button()">
+                <span>And Click on the Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_create_new_button()">
+                <span>And Click on Create New button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.input_customer_name_as(java.lang.String)">
+                <span>And Input Customer Name as "ACP"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.input_customer_company_as(java.lang.String)">
+                <span>And Input Customer Company as "TESLA"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.input_customer_address_as(java.lang.String)">
+                <span>And Input Customer Address as "USA"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.input_customer_city_as(java.lang.String)">
+                <span>And Input Customer City as "NY"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.input_customer_phone_as(java.lang.String)">
+                <span>And Input Customer Phone as "1234567890"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.input_customer_email_as(java.lang.String)">
+                <span>And Input Customer Email as "PPC@Test.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_create_button()">
+                <span>And Click on Create button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.verify_customer_is_added_in_the_list()">
+                <span>And Verify customer is added in the list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_logout_link()">
+                <span>And Click on Logout Link</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>Editing Customer Test</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definition.Customer.open_browser()">
+                <span>Given Open browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.open_url()">
+                <span>And Open URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_login()">
+                <span>When Click on Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.enter_username(java.lang.String)">
+                <span>Then Input Username as "qwerty3"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.enter_password(java.lang.String)">
+                <span>And Input Password as "Password"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_login_button()">
+                <span>And Click on the Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.input_the_customer_name_or_email_in_search_box()">
+                <span>And Input the customer name or email in search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_search_button()">
+                <span>And Click on Search button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_edit()">
+                <span>And Click on Edit</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.edit_the_customer_details()">
+                <span>And Edit the customer details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_save_button()">
+                <span>And Click on Save button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.verify_updated_details_is_updated_in_the_table()">
+                <span>And Verify updated details is updated in the table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_logout_link()">
+                <span>And Click on Logout Link</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Deleting Customer Test</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definition.Customer.open_browser()">
+                <span>Given Open browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.open_url()">
+                <span>And Open URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_login()">
+                <span>When Click on Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.enter_username(java.lang.String)">
+                <span>Then Input Username as "qwerty3"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.enter_password(java.lang.String)">
+                <span>And Input Password as "Password"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_login_button()">
+                <span>And Click on the Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.input_the_customer_name_or_email_in_search_box()">
+                <span>And Input the customer name or email in search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_search_button()">
+                <span>And Click on Search button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_delete()">
+                <span>And Click on Delete</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_delete_button()">
+                <span>And Click on Delete button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.verify_updated_details_is_updated_in_the_table()">
+                <span>And Verify updated details is updated in the table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Customer.click_on_logout_link()">
+                <span>And Click on Logout Link</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="46"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login in itera site</p>
+            <p class="text-sm">
+              <span>16:56:09 pm</span> / <span>30:34:030</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login in itera site</h5>
+<span class='badge badge-success'>12.31.2022 16:56:09</span>
+<span class='badge badge-danger'>12.31.2022 16:56:43</span>
+<span class='badge badge-default'>30:34:030</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="47"><span class="badge log pass-bg mr-2">Pass</span>Testing Login with valid credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definition.Login.launch_browser()">
+                <span>Given Launch browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.navigate_url()">
+                <span>And Navigate URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.click_on_login_link()">
+                <span>When Click on Login Link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.enter_username(java.lang.String)">
+                <span>Then Enter Username as "qwerty3"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.enter_password(java.lang.String)">
+                <span>And Enter Password as "Password"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.click_on_login_button()">
+                <span>And Click on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.login_successfull()">
+                <span>And Login Successfull</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="55"><span class="badge log pass-bg mr-2">Pass</span>Testing Login with invalid credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definition.Login.launch_browser()">
+                <span>Given Launch browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.navigate_url()">
+                <span>And Navigate URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.click_on_login_link()">
+                <span>When Click on Login Link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.enter_username(java.lang.String)">
+                <span>Then Enter Username as "qwerty3"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.enter_password(java.lang.String)">
+                <span>And Enter Password as ""</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.click_on_login_button()">
+                <span>And Click on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.login_should_fail()">
+                <span>But Login should fail</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="63"><span class="badge log pass-bg mr-2">Pass</span>Testing Login with invalid credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definition.Login.launch_browser()">
+                <span>Given Launch browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.navigate_url()">
+                <span>And Navigate URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.click_on_login_link()">
+                <span>When Click on Login Link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.enter_username(java.lang.String)">
+                <span>Then Enter Username as ""</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.enter_password(java.lang.String)">
+                <span>And Enter Password as "password"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.click_on_login_button()">
+                <span>And Click on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.Login.login_should_fail()">
+                <span>But Login should fail</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="71"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Signing up in itera site</p>
+            <p class="text-sm">
+              <span>16:56:43 pm</span> / <span>30:08:686</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Signing up in itera site</h5>
+<span class='badge badge-success'>12.31.2022 16:56:43</span>
+<span class='badge badge-danger'>12.31.2022 16:56:51</span>
+<span class='badge badge-default'>30:08:686</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=71</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="72"><span class="badge log pass-bg mr-2">Pass</span>Testing Sign up</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definition.SignUP.launch_the_browser()">
+                <span>Given Launch the browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.SignUP.navigate_to_url()">
+                <span>And Navigate to URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.SignUP.click_on_sign_up_link()">
+                <span>When Click on Sign Up Link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.SignUP.input_firstname()">
+                <span>Then Input Firstname</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.SignUP.input_surname()">
+                <span>And Input Surname</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.SignUP.input_epost()">
+                <span>And Input Epost</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.SignUP.input_mobile()">
+                <span>And Input Mobile</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.SignUP.input_username()">
+                <span>And Input Username</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.SignUP.input_password()">
+                <span>And Input Password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.SignUP.input_confirm_password()">
+                <span>And Input Confirm Password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definition.SignUP.click_on_submit_button()">
+                <span>And Click on Submit Button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">8</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">@Customer</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Customer</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:55:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Adding Customer Test</a>
+<div class="">
+<span class="badge badge-default">Adding Customer.Adding Customer Test</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:55:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>Editing Customer Test</a>
+<div class="">
+<span class="badge badge-default">Adding Customer.Editing Customer Test</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:55:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>Deleting Customer Test</a>
+<div class="">
+<span class="badge badge-default">Adding Customer.Deleting Customer Test</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">@login</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@login</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='47'>Testing Login with valid credentials</a>
+<div class="">
+<span class="badge badge-default">Login in itera site.Testing Login with valid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:20 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='55'>Testing Login with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">Login in itera site.Testing Login with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='63'>Testing Login with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">Login in itera site.Testing Login with invalid credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Delete</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Delete</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:55:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>Deleting Customer Test</a>
+<div class="">
+<span class="badge badge-default">Adding Customer.Deleting Customer Test</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Edit</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Edit</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:55:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>Editing Customer Test</a>
+<div class="">
+<span class="badge badge-default">Adding Customer.Editing Customer Test</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@+ve</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@+ve</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='47'>Testing Login with valid credentials</a>
+<div class="">
+<span class="badge badge-default">Login in itera site.Testing Login with valid credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Add</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Add</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:55:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Adding Customer Test</a>
+<div class="">
+<span class="badge badge-default">Adding Customer.Adding Customer Test</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@-ve</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@-ve</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:20 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='55'>Testing Login with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">Login in itera site.Testing Login with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='63'>Testing Login with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">Login in itera site.Testing Login with invalid credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@signup</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@signup</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:43 pm</td>
+<td>
+<a href="#" class="linked" test-id='71' id='72'>Testing Sign up</a>
+<div class="">
+<span class="badge badge-default">Signing up in itera site.Testing Sign up</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 31, 2022 04:55:16 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 31, 2022 04:56:51 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>3</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>7</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>73</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Adding Customer":51.408,"Login in itera site":34.03,"Signing up in itera site":8.686
+};
+</script>
+<div class="row">
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Customer</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@login</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Delete</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Edit</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@+ve</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Add</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@-ve</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@signup</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-md-4 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Automation_Tool</td>
+<td>Selenium</td>
+</tr>
+<tr>
+<td>Application_Name</td>
+<td>Itera</td>
+</tr>
+<tr>
+<td>Framework</td>
+<td>Cucumber with Junit</td>
+</tr>
+<tr>
+<td>Tester</td>
+<td>Pranay Chander P</td>
+</tr>
+<tr>
+<td>IDE</td>
+<td>Eclipse</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 7,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 73,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
